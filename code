@@ -22,7 +22,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			{
 				name : 'Black People', //Category name to be used for feedback and logging.
 				title : {
-					media : {word : 'Black People'}, //Name of the category presented in the task.
+					media : {word : 'Jan 6th'}, //Name of the category presented in the task.
 					css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 					height : 4 //Used to position the "Or" in the combined block.
 				}, 
