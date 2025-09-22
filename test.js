@@ -1,4 +1,4 @@
-define(['pipAPI','https://github.com/kaming-chan/iat_base/blob/main/test.js'], function(APIConstructor, Scorer, _) {
+define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) {
 
 	function stiatExtension(options)
 	{
