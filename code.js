@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qualtrics/qstiat6.js'], function(APIConstructor, stiatExtension){
+define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) {
 
 	function stiatExtension(options)
 	{
